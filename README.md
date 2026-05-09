@@ -56,13 +56,12 @@
 ### Step 11:
   Stop
 # Program:
-```
 #include <stdio.h>
 
 #include <math.h>
 
 int main() {
-
+```
 float m1, m2, m3, avg;
 
 float eps = 0.0001; 
@@ -112,8 +111,9 @@ if (avg > 90.0 - eps) {
 }
 
 return 0;
-}
 ```
+}
+
 # Output:
 <img width="995" height="404" alt="Screenshot 2026-05-09 131254" src="https://github.com/user-attachments/assets/c549f3f0-db82-4eef-b4a2-1bc918be9f37" />
 
@@ -148,11 +148,10 @@ Thus, the program was implemented and executed successfully, and the required ou
   Stop
 
 # Program:
-```
 #include <stdio.h>
 
 int main() {
-
+```
 int i;
 
 printf("Multiplication Table of 15:\n");
@@ -164,8 +163,9 @@ for(i = 1; i <= 10; i++) {
 }
 
 return 0;
-}
 ```
+}
+
 # Output:
 <img width="992" height="582" alt="Screenshot 2026-05-09 131312" src="https://github.com/user-attachments/assets/d8c38f92-6888-46d0-9ced-ff100019afaa" />
 
@@ -211,11 +211,10 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 7:   
   Stop
 # Program:
-```
 #include <stdio.h>
 
 int main() {
-
+```
 int num, i, isPrime = 1;
 
 printf("Enter a number: ");
@@ -251,8 +250,9 @@ else
     printf("%d is NOT a Prime Number.\n", num);
     
 return 0;
-}
 ```
+}
+
 # Output:
 <img width="986" height="247" alt="Screenshot 2026-05-09 131327" src="https://github.com/user-attachments/assets/e865ef32-3bd6-4309-828b-b9c4e3f0cca5" />
 
@@ -303,10 +303,11 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
-```
 #include <stdio.h>
 
-int main() { int i, j, n, k;
+int main() { 
+```
+int i, j, n, k;
 
 printf("Enter n: ");
 scanf("%d", &n);
@@ -331,8 +332,9 @@ for (i = 1; i <= n; i++) {
 
     printf("\n");
 }
-    return 0; }
+    return 0;
 ```
+}
 # Output:
 <img width="994" height="369" alt="Screenshot 2026-05-09 131340" src="https://github.com/user-attachments/assets/ec4320a0-18f7-492a-89f0-1bd447d6007d" />
 
@@ -389,11 +391,10 @@ for (i = 1; i <= n; i++) {
 ### Step 8:
   Stop
 # Program:
-```
 #include <stdio.h>
 
 int main() {
-
+```
 int i, j;
 
 printf("0\n");
@@ -419,8 +420,8 @@ for (i = 7; i >= 1; i--) {
 }
 
 return 0;
-}
 ```
+}
 # Output:
 <img width="987" height="448" alt="Screenshot 2026-05-09 131357" src="https://github.com/user-attachments/assets/109527cb-9c39-4655-b0bd-1d505d105e71" />
 
